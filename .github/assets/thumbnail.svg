@@ -97,6 +97,32 @@
     React Native + Godot Starter
   </text>
   
+  <!-- Platform Icons -->
+  <g transform="translate(640, 450)">
+    <!-- iOS Icon -->
+    <g transform="translate(-100, 0)">
+      <rect x="-25" y="-25" width="50" height="50" rx="12" fill="#ffffff" opacity="0.2"/>
+      <text x="0" y="8" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">i</text>
+      <text x="0" y="40" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Arial, sans-serif" font-size="12">iOS</text>
+    </g>
+    
+    <!-- Android Icon -->
+    <g transform="translate(0, 0)">
+      <rect x="-25" y="-25" width="50" height="50" rx="8" fill="#3ddc84" opacity="0.8"/>
+      <path d="M-8,-8 Q0,-12 8,-8 Q12,0 8,8 Q0,12 -8,8 Q-12,0 -8,-8" fill="#ffffff"/>
+      <text x="0" y="40" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Arial, sans-serif" font-size="12">Android</text>
+    </g>
+    
+    <!-- Web Icon -->
+    <g transform="translate(100, 0)">
+      <rect x="-25" y="-25" width="50" height="50" rx="12" fill="#ffffff" opacity="0.2"/>
+      <circle cx="0" cy="-5" r="8" fill="#61dafb"/>
+      <circle cx="-6" cy="5" r="8" fill="#e94560"/>
+      <circle cx="6" cy="5" r="8" fill="#478cbf"/>
+      <text x="0" y="40" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Arial, sans-serif" font-size="12">Web</text>
+    </g>
+  </g>
+  
   <!-- Bottom Tagline -->
   <text x="640" y="520" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Arial, sans-serif" font-size="18">
     Build Native Apps with Game Engine Power
