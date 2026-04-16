@@ -1,4 +1,4 @@
-<h1 align="center"><img src=".github/assets/thumbnail.png" alt="Start UI Native" /></h1>
+<h1 align="center"><img src=".github/assets/thumbnail.svg" alt="OpenAgenticGame Team - React Native + Godot Starter" /></h1>
 
 🎮 **Game Starter** - 基于 🚀 Start UI <small>[native]</small> 的游戏开发模板
 

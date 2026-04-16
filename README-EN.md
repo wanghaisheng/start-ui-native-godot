@@ -1,4 +1,4 @@
-<h1 align="center"><img src=".github/assets/thumbnail.png" alt="Start UI Native" /></h1>
+<h1 align="center"><img src=".github/assets/thumbnail.svg" alt="OpenAgenticGame Team - React Native + Godot Starter" /></h1>
 
 🎮 **Game Starter** - A Game Development Template Based on 🚀 Start UI <small>[native]</small>
 

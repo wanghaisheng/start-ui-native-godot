@@ -1,0 +1,120 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="godotGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#478cbf;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#478cbf;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1280" height="640" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative Grid Pattern -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  </pattern>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  
+  <!-- Game Controller Icon -->
+  <g transform="translate(640, 280)">
+    <!-- Controller Body -->
+    <path d="M-120,-60 L120,-60 L140,20 L100,80 L-100,80 L-140,20 Z" 
+          fill="url(#accentGradient)" filter="url(#glow)" opacity="0.9"/>
+    
+    <!-- D-Pad -->
+    <g transform="translate(-60, 0)">
+      <rect x="-15" y="-35" width="30" height="70" rx="5" fill="#333"/>
+      <rect x="-35" y="-15" width="70" height="30" rx="5" fill="#333"/>
+      <circle cx="0" cy="0" r="8" fill="#1a1a2e"/>
+    </g>
+    
+    <!-- Action Buttons -->
+    <g transform="translate(60, 0)">
+      <circle cx="0" cy="-25" r="12" fill="#e94560"/>
+      <circle cx="-25" cy="0" r="12" fill="#478cbf"/>
+      <circle cx="25" cy="0" r="12" fill="#478cbf"/>
+      <circle cx="0" cy="25" r="12" fill="#e94560"/>
+    </g>
+    
+    <!-- Center Buttons -->
+    <circle cx="-20" cy="30" r="8" fill="#333"/>
+    <circle cx="20" cy="30" r="8" fill="#333"/>
+  </g>
+  
+  <!-- React Native Logo (Left) -->
+  <g transform="translate(200, 320)">
+    <!-- Atom Symbol -->
+    <g stroke="#61dafb" stroke-width="4" fill="none">
+      <ellipse cx="0" cy="0" rx="30" ry="10" transform="rotate(0)"/>
+      <ellipse cx="0" cy="0" rx="30" ry="10" transform="rotate(60)"/>
+      <ellipse cx="0" cy="0" rx="30" ry="10" transform="rotate(120)"/>
+    </g>
+    <circle cx="0" cy="0" r="8" fill="#61dafb"/>
+    
+    <!-- Text -->
+    <text x="0" y="50" text-anchor="middle" fill="#61dafb" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+      React Native
+    </text>
+  </g>
+  
+  <!-- Godot Logo (Right) -->
+  <g transform="translate(1080, 320)">
+    <!-- Godot Gear Icon -->
+    <g fill="#478cbf">
+      <circle cx="0" cy="0" r="25" fill="none" stroke="#478cbf" stroke-width="6"/>
+      <path d="M-8,-8 L8,-8 L8,8 L-8,8 Z" fill="#478cbf"/>
+      <path d="M-15,-15 L15,-15 L15,15 L-15,15 Z" fill="none" stroke="#478cbf" stroke-width="3"/>
+    </g>
+    
+    <!-- Text -->
+    <text x="0" y="50" text-anchor="middle" fill="#478cbf" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+      Godot Engine
+    </text>
+  </g>
+  
+  <!-- Main Title -->
+  <text x="640" y="180" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="64" font-weight="bold" filter="url(#glow)">
+    OpenAgenticGame Team
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="640" y="240" text-anchor="middle" fill="url(#accentGradient)" font-family="Arial, sans-serif" font-size="28" font-weight="600">
+    React Native + Godot Starter
+  </text>
+  
+  <!-- Bottom Tagline -->
+  <text x="640" y="520" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Arial, sans-serif" font-size="18">
+    Build Native Apps with Game Engine Power
+  </text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="100" r="5" fill="#e94560" opacity="0.5"/>
+  <circle cx="1180" cy="100" r="5" fill="#478cbf" opacity="0.5"/>
+  <circle cx="100" cy="540" r="3" fill="#61dafb" opacity="0.5"/>
+  <circle cx="1180" cy="540" r="3" fill="#e94560" opacity="0.5"/>
+  
+  <!-- Plus Sign between logos -->
+  <text x="640" y="325" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="bold" opacity="0.8">
+    +
+  </text>
+</svg>
