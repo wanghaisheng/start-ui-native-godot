@@ -1,5 +1,5 @@
 {
-  "name": "start-ui-native",
+  "name": "openagenticgame-godot-react-native-game-starter",
   "private": true,
   "main": "expo-router/entry",
   "version": "1.0.0",
@@ -129,9 +129,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bearstudio/start-ui-native.git"
+    "url": "git+https://github.com/wanghaisheng/start-ui-native-godot.git"
   },
   "contributors": [
+    {
+      "name": "Wang Haisheng",
+      "email": "edwin_uestc@163.com",
+      "url": "https://github.com/wanghaisheng"
+    },
+    {
+      "name": "Original Start UI Native Contributors (BearStudio Team)",
+      "url": "https://github.com/bearstudio/start-ui-native"
+    },
     {
       "name": "Nicolas Torion",
       "email": "nicolas@bearstudio.fr",
