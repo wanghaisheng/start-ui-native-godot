@@ -44,26 +44,29 @@ npx wrangler pages deploy
 
 ## 数据库
 
-当前使用模拟数据。需要配置 Cloudflare KV 或 D1 数据库：
+项目使用 Cloudflare D1 数据库。详细配置请查看 [D1_SETUP.md](./D1_SETUP.md)。
 
-### Cloudflare KV
+### 快速设置
 
-```javascript
-// 在 wrangler.toml 中配置
-[[kv_namespaces]]
-binding = "USERS_KV"
-id = "your-kv-namespace-id"
-```
+1. 创建 D1 数据库：
+   ```bash
+   npx wrangler d1 create game-db
+   ```
 
-### Cloudflare D1
+2. 复制 `database_id` 到 `wrangler.toml`
 
-```javascript
-// 在 wrangler.toml 中配置
-[[d1_databases]]
-binding = "DB"
-database_name = "game-db"
-database_id = "your-database-id"
-```
+3. 应用数据库迁移：
+   ```bash
+   npx wrangler d1 migrations apply game-db --local
+   ```
+
+### 数据库表结构
+
+- `users` - 用户表
+- `books` - 书籍表
+- `characters` - 角色表
+- `book_characters` - 书籍角色关联表
+- `chapters` - 章节表
 
 ## 与 React Native 集成
 

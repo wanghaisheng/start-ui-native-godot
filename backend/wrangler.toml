@@ -1,15 +1,16 @@
 name = "game-api-backend"
 compatibility_date = "2024-04-16"
 
-[[kv_namespaces]]
-binding = "USERS_KV"
-id = "your-kv-namespace-id"
+# D1 数据库配置
+[[d1_databases]]
+binding = "DB"
+database_name = "game-db"
+database_id = "your-database-id" # 运行 `npx wrangler d1 create game-db` 后获取
 
-# 如果使用 D1 数据库
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "game-db"
-# database_id = "your-database-id"
+# KV 存储（可选，用于缓存）
+[[kv_namespaces]]
+binding = "CACHE_KV"
+id = "your-kv-namespace-id"
 
 [vars]
 ENVIRONMENT = "development"
