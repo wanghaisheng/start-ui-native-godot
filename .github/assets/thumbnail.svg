@@ -97,14 +97,14 @@
     React Native + Godot Starter
   </text>
   
-  <!-- Subtitle -->
-  <text x="640" y="240" text-anchor="middle" fill="url(#accentGradient)" font-family="Arial, sans-serif" font-size="28" font-weight="600">
-    OpenAgenticGame Team
-  </text>
-  
   <!-- Bottom Tagline -->
   <text x="640" y="520" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Arial, sans-serif" font-size="18">
     Build Native Apps with Game Engine Power
+  </text>
+  
+  <!-- Team Name -->
+  <text x="640" y="560" text-anchor="middle" fill="url(#accentGradient)" font-family="Arial, sans-serif" font-size="24" font-weight="600">
+    OpenAgenticGame Team
   </text>
   
   <!-- Decorative Elements -->
