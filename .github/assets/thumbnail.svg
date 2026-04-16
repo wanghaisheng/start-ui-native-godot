@@ -94,12 +94,12 @@
   
   <!-- Main Title -->
   <text x="640" y="180" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="64" font-weight="bold" filter="url(#glow)">
-    OpenAgenticGame Team
+    React Native + Godot Starter
   </text>
   
   <!-- Subtitle -->
   <text x="640" y="240" text-anchor="middle" fill="url(#accentGradient)" font-family="Arial, sans-serif" font-size="28" font-weight="600">
-    React Native + Godot Starter
+    OpenAgenticGame Team
   </text>
   
   <!-- Bottom Tagline -->
