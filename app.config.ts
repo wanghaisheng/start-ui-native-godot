@@ -152,5 +152,6 @@ export default {
     eas: {
       projectId: EAS_PROJECT_ID,
     },
+    apiBaseUrl: 'https://lego-story.pages.dev/api',
   },
 } as const satisfies ExpoConfig;
