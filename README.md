@@ -1,14 +1,27 @@
 <h1 align="center"><img src=".github/assets/thumbnail.png" alt="Start UI Native" /></h1>
 
+🎮 **Game Starter** - 基于 🚀 Start UI <small>[native]</small> 的游戏开发模板
+
+本项目是在 [BearStudio Team](https://www.bearstudio.fr/team) 的 Start UI Native 基础上集成了 [Godot 引擎](https://godotengine.org/)，打造了一个全新的游戏开发模板。
+
+**核心特性：**
+- ✅ **传统 App 能力**：保留完整的 React Native 应用开发能力
+- ✅ **游戏引擎集成**：无缝集成 Godot 引擎，支持 2D/3D 游戏开发
+- ✅ **混合架构**：在同一应用中同时拥有传统 UI 和游戏场景
+- ✅ **线程安全**：使用 Worklet 机制实现 Godot API 的线程安全调用
+- ✅ **平台支持**：完整的 iOS 和 Android 平台支持
+
 🚀 Start UI <small>[native]</small> is an opinionated native starter repository created & maintained by the [BearStudio Team](https://www.bearstudio.fr/team) and other contributors.
 It represents our team's up-to-date stack that we use when creating native apps for our clients.
+
+**Godot 集成文档：** 详见 [GODOT_INTEGRATION.md](./GODOT_INTEGRATION.md)
 
 # Technologies
 
 
 <div align="center" style="margin: 0 0 16px 0"><img src=".github/assets/tech-logos.png" alt="Technologies logos of the starter" /></div>
 
-[⚙️ Node.js](https://nodejs.org), [🟦 TypeScript](https://www.typescriptlang.org/), [⚛️ React](https://react.dev/), [📱 React Native](https://reactnative.dev/), [🚀 Expo](https://docs.expo.dev/), [🔐 Better Auth](https://www.better-auth.com/), [🖌️ Uniwind](https://uniwind.dev), [🧱 React Native Reusables](https://reactnativereusables.com), [🌴 Tanstack Form](https://tanstack.com/form/), [🌴 Tanstack Query](https://tanstack.com/query/), [👋 Hey API](https://heyapi.dev/)
+[⚙️ Node.js](https://nodejs.org), [🟦 TypeScript](https://www.typescriptlang.org/), [⚛️ React](https://react.dev/), [📱 React Native](https://reactnative.dev/), [🚀 Expo](https://docs.expo.dev/), [🎮 Godot](https://godotengine.org/), [@borndotcom/react-native-godot](https://github.com/borndotcom/react-native-godot), [🔐 Better Auth](https://www.better-auth.com/), [🖌️ Uniwind](https://uniwind.dev), [🧱 React Native Reusables](https://reactnativereusables.com), [🌴 Tanstack Form](https://tanstack.com/form/), [🌴 Tanstack Query](https://tanstack.com/query/), [👋 Hey API](https://heyapi.dev/)
 
 # Requirements
 
@@ -198,3 +211,12 @@ To be able to use previews on PR, you have to setup your project with EAS
     - `eas init --id {projectid}`
     - `eas update:configure`
 
+---
+
+## 项目来源
+
+本项目基于 [BearStudio](https://www.bearstudio.fr/) 的 [Start UI Native](https://github.com/bearstudio/start-ui-native) 模板，在此基础上集成了 Godot 游戏引擎功能，打造了一个全新的游戏开发模板。
+
+**原项目地址：** [https://github.com/bearstudio/start-ui-native](https://github.com/bearstudio/start-ui-native)
+
+**致谢：** 感谢 BearStudio Team 提供的优秀基础模板，使得我们能够在 React Native 应用中无缝集成游戏引擎功能。
