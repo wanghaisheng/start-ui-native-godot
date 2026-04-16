@@ -2,7 +2,7 @@ declare module '@borndotcom/react-native-godot' {
   import type { ViewProps } from 'react-native';
 
   export interface RTNGodotViewProps extends ViewProps {
-    style?: any;
+    style?: unknown;
   }
 
   export const RTNGodotView: React.FC<RTNGodotViewProps>;
@@ -11,6 +11,6 @@ declare module '@borndotcom/react-native-godot' {
 
   export const RTNGodot: {
     init(config: Record<string, string>): Promise<void>;
-    API(): any;
+    API(): unknown;
   };
 }
