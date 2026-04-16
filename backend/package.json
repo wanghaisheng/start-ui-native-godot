@@ -1,0 +1,13 @@
+{
+  "name": "game-api-backend",
+  "version": "1.0.0",
+  "description": "Cloudflare Pages Functions for Game API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler pages dev",
+    "deploy": "wrangler pages deploy"
+  },
+  "keywords": ["cloudflare", "pages", "functions", "api"],
+  "author": "",
+  "license": "MIT"
+}
