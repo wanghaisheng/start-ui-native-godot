@@ -1,16 +1,16 @@
-import React, { useEffect } from 'react';
 import {
-  View,
-  Text,
-  TouchableOpacity,
-  StyleSheet,
-  Platform,
-} from 'react-native';
-import {
+  RTNGodot,
   RTNGodotView,
   runOnGodotThread,
-  RTNGodot,
 } from '@borndotcom/react-native-godot';
+import React, { useEffect } from 'react';
+import {
+  Platform,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 
 /**
  * Godot 游戏页面
